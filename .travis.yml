@@ -1,0 +1,22 @@
+language: go
+
+go:
+  - 1.7.x
+  - 1.8.x
+  - 1.9.x
+  - master
+
+branches:
+  only:
+    - master
+
+before_install:
+  - go get github.com/mattn/goveralls
+
+install:
+  - go version
+  - go env
+
+script:
+  - go vet -v .
+  - $HOME/gopath/bin/goveralls -service=travis-ci

@@ -1,14 +1,14 @@
 # Quander Rekeningoverzicht
 
-[![GoDoc](https://godoc.org/github.com/middelink/qander-rekeningoverzicht?status.svg)](https://godoc.org/github.com/middelink/qander-rekeningoverzicht)
-[![License](https://img.shields.io/github/license/middelink/qander-rekeningoverzicht.svg)](https://github.com/middelink/qander-rekeningoverzicht/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/middelink/qander-rekeningoverzicht.svg?branch=master)](https://travis-ci.org/middelink/qander-rekeningoverzicht)
-[![Coverage Status](https://coveralls.io/repos/github/middelink/qander-rekeningoverzicht/badge.svg?branch=master)](https://coveralls.io/github/middelink/qander-rekeningoverzicht?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/middelink/qander-rekeningoverzicht)](https://goreportcard.com/report/github.com/middelink/qander-rekeningoverzicht)
+[![GoDoc](https://godoc.org/github.com/middelink/rekeningoverzicht-qander?status.svg)](https://godoc.org/github.com/middelink/rekeningoverzicht-qander)
+[![License](https://img.shields.io/github/license/middelink/rekeningoverzicht-qander.svg)](https://github.com/middelink/rekeningoverzicht-qander/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/middelink/rekeningoverzicht-qander.svg?branch=master)](https://travis-ci.org/middelink/rekeningoverzicht-qander)
+[![Coverage Status](https://coveralls.io/repos/github/middelink/rekeningoverzicht-qander/badge.svg?branch=master)](https://coveralls.io/github/middelink/rekeningoverzicht-qander?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/middelink/rekeningoverzicht-qander)](https://goreportcard.com/report/github.com/middelink/rekeningoverzicht-qander)
 
 ## TL;DR
 
-* qander-rekeningoverzicht is a small program which logs into the
+* rekeningoverzicht-qander is a small program which logs into the
   Qander webUI and retrieves the last (or all) statements. It then
   creates an email with the statements attached.
 
@@ -41,7 +41,7 @@ program at regular monthly intervals.
 ### Building the binary
 
 * Clone, download, copy/paste the source files onto your local disk.
-* Execute `go build .` to create the qander-rekeningoverzicht binary.
+* Execute `go build .` to create the rekeningoverzicht-qander binary.
 * Copy the binary to /usr/local/sbin.
 
 ## Credits

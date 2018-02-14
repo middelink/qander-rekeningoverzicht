@@ -22,11 +22,11 @@
     	Qander password to log in with (required)
 *  `--smtp` string
     	SMTPserver to send message over (e.g. smtp.iaf.nl:587) (required)
-*  `--smtp\_pass` string
+*  `--smtp_pass` string
     	Optional SMTP password to log in with
-*  `--smtp\_to` string
+*  `--smtp_to` string
     	Comma seperated list of email recipients (required)
-*  `--smtp\_user` string
+*  `--smtp_user` string
     	Optional SMTP username to log in with
 *  `--user` string
     	Qander username to log in with (required)
